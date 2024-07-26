@@ -1,0 +1,17 @@
+.aut{
+    background-color: #f5f7e5;
+opacity: 0.8;
+
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+}
+.aut img{
+    height: 475px;
+}
+/* Ensure no margin and padding for the entire page */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}

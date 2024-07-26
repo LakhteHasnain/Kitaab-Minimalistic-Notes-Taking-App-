@@ -1,0 +1,88 @@
+/*Neo Brutalism pricing card*/
+.mj{
+  background: #ffdb77;
+  padding: 30px;
+}
+.pricing-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background:#ffdb77 ;
+  margin-top: 3%;
+  padding: 50px;
+
+}
+.card1 {
+    width: 190px;
+    background: #00ffa0;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.5vmin solid #05060f;
+    box-shadow: 0.4rem 0.4rem #05060f;
+    overflow: hidden;
+    color: black;
+    margin-left: 5%;
+    transition:all 0.5s;
+    cursor: pointer;
+  }
+  .card1:hover{
+    transform: translateY(-30px);
+  }
+  .card2:hover{
+    transform: translateY(-30px);
+  }
+  .card2 {
+    width: 190px;
+    background: #ff834d;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.5vmin solid #05060f;
+    box-shadow: 0.4rem 0.4rem #05060f;
+    overflow: hidden;
+    color: black;
+    margin-left: 5%;
+    transition:all 0.5s;
+    cursor: pointer;
+  }
+  
+  /*Card content*/
+  .pricing-block-content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    
+  }
+  
+  .pricing-plan {
+    color: #05060f;
+    font-size: 1.3rem;
+    line-height: 1.25;
+    font-weight: 700;
+  }
+  
+  .price-value {
+    display: flex;
+    color: #05060f;
+    font-size: 1.8rem;
+    line-height: 1.25;
+    font-weight: 700;
+  }
+  
+  .pricing-note {
+    opacity: 0.8;
+  }
+  
+  /*Checklist*/
+  .check-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .check-list-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  

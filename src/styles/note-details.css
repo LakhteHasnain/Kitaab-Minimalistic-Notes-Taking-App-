@@ -1,0 +1,53 @@
+/* note-details.css */
+.note-details {
+  height: 100vh;
+  font-family: monospace;
+  width: 100%;
+  
+}
+
+.note-details p {
+  border-bottom: 1.5px solid brown;
+}
+
+.note-details h2 {
+  color: #fdc834;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.note-content {
+  white-space: pre-line; /* Preserves line breaks in the content */
+  font-size: 18px;
+  border-bottom: 1.5px solid rgb(0, 0, 0);
+}
+
+.image-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.note-image {
+  width: 100px; /* Set a fixed width for all images */
+  height: 100px; /* Set a fixed height for all images */
+  object-fit: cover; /* Ensures the images cover the box without stretching */
+  border: 1px solid #ccc; /* Optional: Add a border to the images */
+  border-radius: 5px; /* Optional: Add border radius to the images */
+}
+
+.edit-btn {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}

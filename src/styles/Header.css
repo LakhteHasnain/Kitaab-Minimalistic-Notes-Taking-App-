@@ -1,0 +1,51 @@
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; /* Optional: Set a background color to make the header stand out */
+    z-index: 1000; /* Ensure the header is on top of other content */
+    padding: 10px 0; /* Optional: Add padding for better appearance */
+    
+}
+
+.logo{
+    margin-left: 2%;
+    color: #f3e074;
+}
+
+.Atts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Atts a{
+    text-decoration: none;
+    color: black;
+}
+
+.Atts p{
+    padding: 0 20px;
+}
+
+.Auths{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Auths p{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.reg{
+    background: rgb(255, 108, 138);
+    color: white;
+}
+

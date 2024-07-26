@@ -1,0 +1,63 @@
+/* Style for the main container */
+.mega2 {
+    width: 100%;
+    background: #ffffff;
+    height: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px; /* Adjust this based on the header height */
+}
+
+/* Style for the sidebar */
+.sidebar {
+    width: 15%;
+    margin-top: 8%;
+    height: 70%;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    background: #ffffff;
+    position: fixed;
+    top: 60px; /* Adjust this based on the header height */
+    left: 0;
+    z-index: 1; /* Ensure the sidebar is below the header */
+}
+
+/* Removing padding for the sidebar ul */
+.sidebar ul {
+    padding: 0;
+}
+
+/* Styling for the sidebar li elements */
+.sidebar li {
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    margin-top: 20%;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    cursor: pointer;
+    background: #333; /* Example background color */
+}
+
+/* Style for the header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Adjust height as needed */
+    background: #000; /* Example background color */
+    color: #fff;
+    z-index: 10; /* Ensure the header is above other elements */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Add some padding to the content area to account for the fixed header */
+.content-area {
+    padding-top: 60px; /* Adjust based on the header height */
+}

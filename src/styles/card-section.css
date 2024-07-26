@@ -1,0 +1,10 @@
+.card-section {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    gap: 20px; /* Add some space between cards */
+    justify-content: center; /* Center the content */
+    padding: 60px; /* Add padding for better spacing */
+    width: 100%; /* Ensure it takes the full width */
+    margin-left: 15%;
+    
+}
