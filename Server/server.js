@@ -10,15 +10,13 @@ const notesrouter = require("./router/notes-router");
 const app = express();
 
 const corsOptions = {
-    origin: ["https://kitaab-minimalistic-notes-taking-app.vercel.app/auth?mode=register"],
+    origin: "https://kitaab-minimalistic-notes-taking-app.vercel.app",
     methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
     credentials: true,
 };
 
 app.use(express.json());
 app.use(cors(corsOptions));
-
-
 
 app.use("/api/auth", authrouter);
 app.use("/api/notes", notesrouter);
