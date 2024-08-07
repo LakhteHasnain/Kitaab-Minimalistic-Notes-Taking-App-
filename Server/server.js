@@ -10,7 +10,7 @@ const notesrouter = require("./router/notes-router");
 const app = express();
 
 const corsOptions = {
-    origin: ["http://deploy-mern-1whq.vercel.app"],
+    origin: ["https://kitaab-minimal-note-taking-app.netlify.app/"],
     methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
     credentials: true,
 };
